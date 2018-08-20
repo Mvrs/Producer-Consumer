@@ -1,0 +1,179 @@
+
+// define producer entity
+struct producerClass{
+    producerID
+ 	maxItemProduce
+    producerBusyTime
+
+}
+
+// define consumer entity
+struct consumerClass	{
+    int consumerID
+    int maxItemConsume
+    int consumerBusyTime
+}
+
+Main {
+
+    create producer and consumer thread
+    create instance of producer and consumer
+
+    create user prompt explaining different expected arguments
+
+    parse the following arguments from the command prompt
+        number of buffers
+        number of producer
+        number of consumers
+        number of items produced by each producer thread
+        time sent busy waiting between PRODUCED item in SECONDS
+        time sent busy waiting between CONSUMED item in SECONDS
+
+    allocate memory space for producer thread
+    allocate memory space for consumer thread
+
+    allocate memory space for producer instance
+    allocate memory space for consumer instance
+
+    invoke semaphore init (&full)
+    invoke semaphore init (&empty)
+    invoke mutex m
+
+    start time tracking and print the start time
+
+    // loop to set producer details
+    while (index < numOfProducer){
+        producerID = index
+        producerRemainCount = bufferAmt
+        itemPerProducer = itemsmInBuffer
+        producerBusyTime = pTime
+
+        create producer thread and invoke produceHandler function
+    }
+
+    // loop to set consumer details
+    while (index < numOfConsumer ){
+        consumerID = index
+        consumerBuffer = bufferAmt
+        itemPerConsumer = consumedItems
+        consumerBusyTime = cTime
+
+        create consumer thread and invoke produceHandler function
+    }
+
+    // loop to wait for the producer threads to finish and join/exit
+    while (index < numOfProducer){
+        join producer thread
+    }
+
+    // loop to wait for the consumer threads to finish and join/exit
+    while (index < numOfConsumer){
+        join consumer thread
+    }
+
+    /**   end time tracking **/ 
+
+    /** Check if equal **/
+
+    {
+        for each index less than P * X
+            printing out the matching consumer and producer arrays
+                if equal
+                    print MATCH      
+            if not equal 
+                print !MATCH
+    }
+
+    //
+    
+    free up buffer 
+    free up space of the producer and consumer thread
+    free up space of the instance of producer and consumer
+
+    invoke mutex unlock
+    invoke semaphore destroy (full and empty)
+
+    print end time and print the time duration of execution
+
+    return (0);
+
+
+}
+
+function producer(param)
+{
+    specify counter to keep track of loop and buffer
+    create producer with param
+    create producer details- capacity and Id...
+
+    while(count++ < capacity){
+
+        invoke semaphore wait (empty)
+
+        invoke mutex lock
+
+        store produced item in the buffer
+        store the item in the buffer to the producerArray
+
+        print producer number and produced item
+
+        increment counter
+        increment producer counter;
+
+        // check for boundaries of the producer buffer length
+
+        { iterate through the producer buffer until reached N size buffers
+            reset buffer if 0;
+            otherwise increment; 
+
+        }
+        put thread on sleep
+
+        invoke semaphore post (full)
+
+        invoke mutex unlock
+    }
+
+    Exit (-1)
+}
+
+
+function consumer(param)
+{
+    specify counter to keep track of loop and buffer
+    create consumer with param
+    create consumer details- capacity and Id...
+
+    while(count++ < capacity){
+
+        invoke semaphore wait (full)
+
+        invoke mutex lock
+
+        store the item in the buffer to the consumerArray        
+
+        print consumer number and consumed item number
+
+        decrement remaining item count
+
+        // check for boundaries of the consumer buffer length
+
+        { iterate through the producer buffer until reached N size buffers
+            reset buffer if 0;
+            otherwise increment; 
+
+        }
+
+        put thread on sleep
+
+        invoke semaphore post (empty)
+
+        invoke mutex unlock
+
+    }
+
+    print consumer thread info when it is done and joined.
+
+    Exit(-1)
+}
+

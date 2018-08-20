@@ -1,0 +1,842 @@
+OUTPUT GOES HERE
+
+marlon@Marlons-PC:/mnt/c/Users/johns/Desktop/csc415-p5-Mvrs/part2$ ./pandc 5 5 5 5 5 5
+N = 5 P = 5 C = 5 X = 5 Ptime = 5 Ctime = 5
+
+Start time: Sat Apr 21 17:29:25 2018
+
+
+1 was produced by thread-> 0
+1 is consumed by thread-> 4
+2 was produced by thread-> 4
+3 was produced by thread-> 2
+4 was produced by thread-> 1
+5 was produced by thread-> 3
+2 is consumed by thread-> 3
+3 is consumed by thread-> 1
+4 is consumed by thread-> 2
+5 is consumed by thread-> 0
+6 was produced by thread-> 0
+7 was produced by thread-> 4
+6 is consumed by thread-> 4
+8 was produced by thread-> 2
+9 was produced by thread-> 1
+10 was produced by thread-> 3
+7 is consumed by thread-> 3
+8 is consumed by thread-> 2
+9 is consumed by thread-> 1
+10 is consumed by thread-> 0
+11 was produced by thread-> 0
+12 was produced by thread-> 4
+13 was produced by thread-> 2
+11 is consumed by thread-> 4
+14 was produced by thread-> 3
+15 was produced by thread-> 1
+12 is consumed by thread-> 1
+13 is consumed by thread-> 2
+14 is consumed by thread-> 3
+15 is consumed by thread-> 0
+16 was produced by thread-> 0
+17 was produced by thread-> 4
+18 was produced by thread-> 2
+16 is consumed by thread-> 4
+19 was produced by thread-> 3
+20 was produced by thread-> 1
+17 is consumed by thread-> 1
+18 is consumed by thread-> 2
+19 is consumed by thread-> 3
+20 is consumed by thread-> 0
+21 was produced by thread-> 0
+22 was produced by thread-> 4
+Producer Thread Joined:  1
+23 was produced by thread-> 2
+21 is consumed by thread-> 4
+24 was produced by thread-> 3
+25 was produced by thread-> 1
+Producer Thread Joined:  2
+Producer Thread Joined:  3
+Producer Thread Joined:  4
+Producer Thread Joined:  5
+22 is consumed by thread-> 1
+23 is consumed by thread-> 2
+24 is consumed by thread-> 3
+25 is consumed by thread-> 0
+Consumer Thread Joined:  1
+Consumer Thread Joined:  2
+Consumer Thread Joined:  3
+Consumer Thread Joined:  4
+Producer Array  | Consumer Array
+1               | 1
+2               | 2
+3               | 3
+4               | 4
+5               | 5
+6               | 6
+7               | 7
+8               | 8
+9               | 9
+10              | 10
+11              | 11
+12              | 12
+13              | 13
+14              | 14
+15              | 15
+16              | 16
+17              | 17
+18              | 18
+19              | 19
+20              | 20
+21              | 21
+22              | 22
+23              | 23
+24              | 24
+25              | 25
+
+Consumer and Produce Arrays Match!
+Consumer Thread Joined:  5
+End time: Sat Apr 21 17:29:51 2018
+
+Duration of Execution: 26 secs
+
+
+marlon@Marlons-PC:/mnt/c/Users/johns/Desktop/csc415-p5-Mvrs/part2$ ./pandc 7 5 3 15 1 1
+N = 7 P = 5 C = 3 X = 15 Ptime = 1 Ctime = 1
+
+Start time: Sat Apr 21 17:41:28 2018
+
+
+1 was produced by thread-> 4
+2 was produced by thread-> 1
+3 was produced by thread-> 0
+4 was produced by thread-> 3
+5 was produced by thread-> 2
+1 is consumed by thread-> 1
+2 is consumed by thread-> 2
+3 is consumed by thread-> 0
+6 was produced by thread-> 4
+7 was produced by thread-> 1
+8 was produced by thread-> 2
+9 was produced by thread-> 0
+10 was produced by thread-> 3
+4 is consumed by thread-> 2
+5 is consumed by thread-> 0
+6 is consumed by thread-> 1
+11 was produced by thread-> 4
+12 was produced by thread-> 1
+13 was produced by thread-> 0
+7 is consumed by thread-> 2
+14 was produced by thread-> 2
+8 is consumed by thread-> 0
+15 was produced by thread-> 3
+9 is consumed by thread-> 1
+16 was produced by thread-> 4
+10 is consumed by thread-> 2
+17 was produced by thread-> 1
+11 is consumed by thread-> 0
+18 was produced by thread-> 0
+12 is consumed by thread-> 1
+19 was produced by thread-> 2
+13 is consumed by thread-> 2
+20 was produced by thread-> 3
+14 is consumed by thread-> 0
+15 is consumed by thread-> 1
+21 was produced by thread-> 4
+22 was produced by thread-> 1
+16 is consumed by thread-> 2
+17 is consumed by thread-> 0
+23 was produced by thread-> 0
+18 is consumed by thread-> 1
+24 was produced by thread-> 3
+25 was produced by thread-> 2
+19 is consumed by thread-> 2
+20 is consumed by thread-> 0
+26 was produced by thread-> 1
+21 is consumed by thread-> 1
+27 was produced by thread-> 4
+28 was produced by thread-> 0
+22 is consumed by thread-> 2
+29 was produced by thread-> 3
+23 is consumed by thread-> 0
+30 was produced by thread-> 2
+24 is consumed by thread-> 1
+31 was produced by thread-> 1
+25 is consumed by thread-> 2
+32 was produced by thread-> 4
+26 is consumed by thread-> 0
+33 was produced by thread-> 0
+27 is consumed by thread-> 1
+34 was produced by thread-> 3
+28 is consumed by thread-> 2
+29 is consumed by thread-> 0
+35 was produced by thread-> 2
+36 was produced by thread-> 1
+30 is consumed by thread-> 1
+37 was produced by thread-> 4
+31 is consumed by thread-> 2
+38 was produced by thread-> 0
+32 is consumed by thread-> 0
+39 was produced by thread-> 3
+33 is consumed by thread-> 1
+40 was produced by thread-> 2
+34 is consumed by thread-> 2
+41 was produced by thread-> 1
+35 is consumed by thread-> 0
+42 was produced by thread-> 4
+36 is consumed by thread-> 1
+43 was produced by thread-> 0
+37 is consumed by thread-> 2
+44 was produced by thread-> 3
+38 is consumed by thread-> 0
+45 was produced by thread-> 2
+39 is consumed by thread-> 1
+46 was produced by thread-> 1
+40 is consumed by thread-> 2
+47 was produced by thread-> 4
+41 is consumed by thread-> 0
+48 was produced by thread-> 0
+42 is consumed by thread-> 1
+49 was produced by thread-> 3
+43 is consumed by thread-> 2
+50 was produced by thread-> 2
+44 is consumed by thread-> 0
+51 was produced by thread-> 1
+45 is consumed by thread-> 1
+52 was produced by thread-> 4
+46 is consumed by thread-> 2
+47 is consumed by thread-> 0
+53 was produced by thread-> 0
+54 was produced by thread-> 3
+48 is consumed by thread-> 1
+55 was produced by thread-> 2
+49 is consumed by thread-> 2
+56 was produced by thread-> 1
+50 is consumed by thread-> 0
+57 was produced by thread-> 4
+51 is consumed by thread-> 1
+58 was produced by thread-> 0
+52 is consumed by thread-> 2
+53 is consumed by thread-> 0
+59 was produced by thread-> 3
+60 was produced by thread-> 2
+54 is consumed by thread-> 1
+61 was produced by thread-> 1
+55 is consumed by thread-> 2
+56 is consumed by thread-> 0
+62 was produced by thread-> 4
+63 was produced by thread-> 0
+57 is consumed by thread-> 1
+64 was produced by thread-> 3
+58 is consumed by thread-> 2
+65 was produced by thread-> 2
+59 is consumed by thread-> 0
+66 was produced by thread-> 1
+60 is consumed by thread-> 1
+67 was produced by thread-> 4
+61 is consumed by thread-> 2
+68 was produced by thread-> 0
+62 is consumed by thread-> 0
+69 was produced by thread-> 3
+63 is consumed by thread-> 1
+70 was produced by thread-> 2
+64 is consumed by thread-> 0
+65 is consumed by thread-> 2
+71 was produced by thread-> 1
+66 is consumed by thread-> 1
+72 was produced by thread-> 4
+73 was produced by thread-> 0
+Producer Thread Joined:  1
+Producer Thread Joined:  2
+67 is consumed by thread-> 0
+68 is consumed by thread-> 2
+74 was produced by thread-> 3
+75 was produced by thread-> 2
+69 is consumed by thread-> 1
+Producer Thread Joined:  3
+Producer Thread Joined:  4
+Producer Thread Joined:  5
+70 is consumed by thread-> 0
+71 is consumed by thread-> 2
+72 is consumed by thread-> 1
+73 is consumed by thread-> 0
+74 is consumed by thread-> 2
+Consumer Thread Joined:  1
+75 is consumed by thread-> 1
+Consumer Thread Joined:  2
+Consumer Thread Joined:  3
+End time: Sat Apr 21 17:41:53 2018
+
+Producer Array  | Consumer Array
+1               | 1
+2               | 2
+3               | 3
+4               | 4
+5               | 5
+6               | 6
+7               | 7
+8               | 8
+9               | 9
+10              | 10
+11              | 11
+12              | 12
+13              | 13
+14              | 14
+15              | 15
+16              | 16
+17              | 17
+18              | 18
+19              | 19
+20              | 20
+21              | 21
+22              | 22
+23              | 23
+24              | 24
+25              | 25
+26              | 26
+27              | 27
+28              | 28
+29              | 29
+30              | 30
+31              | 31
+32              | 32
+33              | 33
+34              | 34
+35              | 35
+36              | 36
+37              | 37
+38              | 38
+39              | 39
+40              | 40
+41              | 41
+42              | 42
+43              | 43
+44              | 44
+45              | 45
+46              | 46
+47              | 47
+48              | 48
+49              | 49
+50              | 50
+51              | 51
+52              | 52
+53              | 53
+54              | 54
+55              | 55
+56              | 56
+57              | 57
+58              | 58
+59              | 59
+60              | 60
+61              | 61
+62              | 62
+63              | 63
+64              | 64
+65              | 65
+66              | 66
+67              | 67
+68              | 68
+69              | 69
+70              | 70
+71              | 71
+72              | 72
+73              | 73
+74              | 74
+75              | 75
+
+Consumer and Produce Arrays Match!
+Duration of Execution: 25 secs
+
+// After moving around my sleep function this is the output I produced
+
+marlon@Marlons-PC:/mnt/c/Users/johns/Desktop/csc415-p5-Mvrs/part2$ ./pandc 7 5 3 15 1 1
+N = 7 P = 5 C = 3 X = 15 Ptime = 1 Ctime = 1
+
+Start time: Tue Apr 24 17:39:04 2018
+
+
+1 was produced by thread-> 0
+2 was produced by thread-> 0
+3 was produced by thread-> 0
+1 is consumed by thread-> 2
+4 was produced by thread-> 4
+5 was produced by thread-> 1
+2 is consumed by thread-> 0
+3 is consumed by thread-> 0
+4 is consumed by thread-> 1
+6 was produced by thread-> 3
+7 was produced by thread-> 3
+5 is consumed by thread-> 2
+8 was produced by thread-> 4
+9 was produced by thread-> 2
+10 was produced by thread-> 1
+11 was produced by thread-> 0
+6 is consumed by thread-> 0
+7 is consumed by thread-> 0
+8 is consumed by thread-> 0
+9 is consumed by thread-> 0
+10 is consumed by thread-> 1
+12 was produced by thread-> 4
+13 was produced by thread-> 4
+14 was produced by thread-> 2
+15 was produced by thread-> 1
+11 is consumed by thread-> 2
+12 is consumed by thread-> 2
+13 is consumed by thread-> 2
+16 was produced by thread-> 1
+14 is consumed by thread-> 1
+17 was produced by thread-> 0
+18 was produced by thread-> 4
+19 was produced by thread-> 2
+20 was produced by thread-> 3
+15 is consumed by thread-> 0
+16 is consumed by thread-> 0
+17 is consumed by thread-> 0
+18 is consumed by thread-> 0
+21 was produced by thread-> 3
+22 was produced by thread-> 0
+23 was produced by thread-> 4
+24 was produced by thread-> 1
+19 is consumed by thread-> 1
+20 is consumed by thread-> 1
+21 is consumed by thread-> 1
+22 is consumed by thread-> 1
+25 was produced by thread-> 3
+26 was produced by thread-> 2
+23 is consumed by thread-> 2
+24 is consumed by thread-> 2
+27 was produced by thread-> 4
+25 is consumed by thread-> 0
+28 was produced by thread-> 4
+26 is consumed by thread-> 0
+29 was produced by thread-> 3
+27 is consumed by thread-> 0
+30 was produced by thread-> 2
+28 is consumed by thread-> 2
+31 was produced by thread-> 1
+29 is consumed by thread-> 1
+32 was produced by thread-> 4
+33 was produced by thread-> 0
+34 was produced by thread-> 3
+30 is consumed by thread-> 0
+31 is consumed by thread-> 0
+32 is consumed by thread-> 0
+35 was produced by thread-> 1
+33 is consumed by thread-> 1
+36 was produced by thread-> 2
+37 was produced by thread-> 4
+34 is consumed by thread-> 2
+35 is consumed by thread-> 2
+38 was produced by thread-> 3
+36 is consumed by thread-> 0
+39 was produced by thread-> 1
+37 is consumed by thread-> 1
+40 was produced by thread-> 0
+38 is consumed by thread-> 1
+41 was produced by thread-> 4
+39 is consumed by thread-> 1
+42 was produced by thread-> 4
+40 is consumed by thread-> 1
+43 was produced by thread-> 4
+41 is consumed by thread-> 1
+44 was produced by thread-> 4
+42 is consumed by thread-> 1
+45 was produced by thread-> 4
+43 is consumed by thread-> 1
+46 was produced by thread-> 1
+47 was produced by thread-> 1
+48 was produced by thread-> 0
+44 is consumed by thread-> 2
+45 is consumed by thread-> 2
+46 is consumed by thread-> 2
+49 was produced by thread-> 2
+50 was produced by thread-> 2
+51 was produced by thread-> 3
+52 was produced by thread-> 1
+53 was produced by thread-> 0
+47 is consumed by thread-> 0
+48 is consumed by thread-> 0
+49 is consumed by thread-> 0
+50 is consumed by thread-> 0
+51 is consumed by thread-> 0
+54 was produced by thread-> 3
+55 was produced by thread-> 3
+52 is consumed by thread-> 1
+53 is consumed by thread-> 1
+56 was produced by thread-> 0
+57 was produced by thread-> 0
+54 is consumed by thread-> 0
+55 is consumed by thread-> 0
+58 was produced by thread-> 1
+59 was produced by thread-> 1
+56 is consumed by thread-> 1
+57 is consumed by thread-> 1
+58 is consumed by thread-> 2
+60 was produced by thread-> 0
+61 was produced by thread-> 0
+62 was produced by thread-> 0
+63 was produced by thread-> 2
+Producer Thread Joined:  1
+64 was produced by thread-> 1
+65 was produced by thread-> 3
+59 is consumed by thread-> 1
+60 is consumed by thread-> 1
+61 is consumed by thread-> 1
+62 is consumed by thread-> 1
+63 is consumed by thread-> 1
+64 is consumed by thread-> 2
+66 was produced by thread-> 1
+65 is consumed by thread-> 2
+Producer Thread Joined:  2
+67 was produced by thread-> 3
+68 was produced by thread-> 3
+69 was produced by thread-> 3
+66 is consumed by thread-> 2
+67 is consumed by thread-> 2
+68 is consumed by thread-> 2
+69 is consumed by thread-> 0
+70 was produced by thread-> 2
+71 was produced by thread-> 2
+72 was produced by thread-> 2
+73 was produced by thread-> 2
+74 was produced by thread-> 2
+75 was produced by thread-> 2
+70 is consumed by thread-> 2
+Producer Thread Joined:  3
+Producer Thread Joined:  4
+Producer Thread Joined:  5
+Consumer Thread Joined:  1
+Consumer Thread Joined:  2
+71 is consumed by thread-> 2
+72 is consumed by thread-> 2
+73 is consumed by thread-> 2
+74 is consumed by thread-> 2
+75 is consumed by thread-> 2
+Consumer Thread Joined:  3
+End time: Tue Apr 24 17:41:34 2018
+
+Producer Array  | Consumer Array
+1               | 1
+2               | 2
+3               | 3
+4               | 4
+5               | 5
+6               | 6
+7               | 7
+8               | 8
+9               | 9
+10              | 10
+11              | 11
+12              | 12
+13              | 13
+14              | 14
+15              | 15
+16              | 16
+17              | 17
+18              | 18
+19              | 19
+20              | 20
+21              | 21
+22              | 22
+23              | 23
+24              | 24
+25              | 25
+26              | 26
+27              | 27
+28              | 28
+29              | 29
+30              | 30
+31              | 31
+32              | 32
+33              | 33
+34              | 34
+35              | 35
+36              | 36
+37              | 37
+38              | 38
+39              | 39
+40              | 40
+41              | 41
+42              | 42
+43              | 43
+44              | 44
+45              | 45
+46              | 46
+47              | 47
+48              | 48
+49              | 49
+50              | 50
+51              | 51
+52              | 52
+53              | 53
+54              | 54
+55              | 55
+56              | 56
+57              | 57
+58              | 58
+59              | 59
+60              | 60
+61              | 61
+62              | 62
+63              | 63
+64              | 64
+65              | 65
+66              | 66
+67              | 67
+68              | 68
+69              | 69
+70              | 70
+71              | 71
+72              | 72
+73              | 73
+74              | 74
+75              | 75
+
+Consumer and Produce Arrays Match!
+Duration of Execution: 150 secs
+
+// Made some minor changes results reflects below this line
+
+marlon@Marlons-PC:/mnt/c/Users/johns/Desktop/csc415-p5-Mvrs/part2$ ./pandc 7 5 3 15 1 1
+N = 7 P = 5 C = 3 X = 15 Ptime = 1 Ctime = 1
+
+Start time: Wed Apr 25 20:18:57 2018
+
+
+1 was produced by thread-> 1
+2 was produced by thread-> 1
+3 was produced by thread-> 1
+4 was produced by thread-> 4
+5 was produced by thread-> 5
+6 was produced by thread-> 2
+1 is consumed by thread-> 3
+2 is consumed by thread-> 2
+7 was produced by thread-> 3
+3 is consumed by thread-> 1
+8 was produced by thread-> 1
+9 was produced by thread-> 4
+4 is consumed by thread-> 3
+5 is consumed by thread-> 2
+10 was produced by thread-> 5
+6 is consumed by thread-> 1
+11 was produced by thread-> 2
+12 was produced by thread-> 3
+7 is consumed by thread-> 3
+8 is consumed by thread-> 2
+13 was produced by thread-> 1
+9 is consumed by thread-> 1
+14 was produced by thread-> 4
+15 was produced by thread-> 5
+10 is consumed by thread-> 3
+11 is consumed by thread-> 2
+16 was produced by thread-> 2
+12 is consumed by thread-> 1
+17 was produced by thread-> 3
+18 was produced by thread-> 1
+13 is consumed by thread-> 3
+14 is consumed by thread-> 2
+19 was produced by thread-> 4
+15 is consumed by thread-> 1
+20 was produced by thread-> 5
+21 was produced by thread-> 2
+16 is consumed by thread-> 3
+17 is consumed by thread-> 2
+22 was produced by thread-> 3
+18 is consumed by thread-> 1
+23 was produced by thread-> 1
+24 was produced by thread-> 4
+19 is consumed by thread-> 3
+20 is consumed by thread-> 2
+25 was produced by thread-> 5
+21 is consumed by thread-> 1
+26 was produced by thread-> 2
+27 was produced by thread-> 3
+22 is consumed by thread-> 3
+23 is consumed by thread-> 2
+28 was produced by thread-> 1
+24 is consumed by thread-> 1
+29 was produced by thread-> 4
+30 was produced by thread-> 5
+25 is consumed by thread-> 3
+26 is consumed by thread-> 2
+31 was produced by thread-> 2
+27 is consumed by thread-> 1
+32 was produced by thread-> 3
+33 was produced by thread-> 1
+28 is consumed by thread-> 3
+29 is consumed by thread-> 2
+34 was produced by thread-> 4
+30 is consumed by thread-> 1
+35 was produced by thread-> 5
+36 was produced by thread-> 2
+31 is consumed by thread-> 3
+32 is consumed by thread-> 2
+37 was produced by thread-> 3
+33 is consumed by thread-> 1
+38 was produced by thread-> 1
+39 was produced by thread-> 4
+34 is consumed by thread-> 3
+35 is consumed by thread-> 2
+40 was produced by thread-> 5
+36 is consumed by thread-> 1
+41 was produced by thread-> 2
+42 was produced by thread-> 3
+37 is consumed by thread-> 3
+38 is consumed by thread-> 2
+43 was produced by thread-> 1
+39 is consumed by thread-> 1
+44 was produced by thread-> 4
+45 was produced by thread-> 5
+40 is consumed by thread-> 3
+41 is consumed by thread-> 2
+46 was produced by thread-> 2
+42 is consumed by thread-> 1
+47 was produced by thread-> 3
+48 was produced by thread-> 1
+43 is consumed by thread-> 3
+44 is consumed by thread-> 2
+49 was produced by thread-> 4
+45 is consumed by thread-> 1
+50 was produced by thread-> 5
+51 was produced by thread-> 2
+46 is consumed by thread-> 3
+47 is consumed by thread-> 2
+52 was produced by thread-> 3
+48 is consumed by thread-> 1
+53 was produced by thread-> 1
+54 was produced by thread-> 4
+49 is consumed by thread-> 3
+50 is consumed by thread-> 2
+55 was produced by thread-> 5
+51 is consumed by thread-> 1
+56 was produced by thread-> 2
+57 was produced by thread-> 3
+52 is consumed by thread-> 3
+53 is consumed by thread-> 2
+58 was produced by thread-> 1
+54 is consumed by thread-> 1
+59 was produced by thread-> 4
+60 was produced by thread-> 5
+55 is consumed by thread-> 3
+56 is consumed by thread-> 2
+61 was produced by thread-> 2
+57 is consumed by thread-> 1
+62 was produced by thread-> 3
+63 was produced by thread-> 1
+58 is consumed by thread-> 3
+59 is consumed by thread-> 2
+64 was produced by thread-> 4
+Producer Thread Joined:  1
+60 is consumed by thread-> 1
+65 was produced by thread-> 5
+66 was produced by thread-> 2
+61 is consumed by thread-> 3
+62 is consumed by thread-> 2
+67 was produced by thread-> 3
+63 is consumed by thread-> 1
+68 was produced by thread-> 4
+69 was produced by thread-> 5
+64 is consumed by thread-> 3
+65 is consumed by thread-> 2
+70 was produced by thread-> 2
+66 is consumed by thread-> 1
+71 was produced by thread-> 5
+72 was produced by thread-> 4
+67 is consumed by thread-> 3
+68 is consumed by thread-> 2
+73 was produced by thread-> 3
+74 was produced by thread-> 3
+75 was produced by thread-> 2
+69 is consumed by thread-> 3
+Producer Thread Joined:  2
+Producer Thread Joined:  3
+Producer Thread Joined:  4
+70 is consumed by thread-> 2
+Producer Thread Joined:  5
+71 is consumed by thread-> 1
+72 is consumed by thread-> 3
+73 is consumed by thread-> 2
+74 is consumed by thread-> 1
+75 is consumed by thread-> 1
+Consumer Thread Joined:  1
+Consumer Thread Joined:  2
+Consumer Thread Joined:  3
+End time: Wed Apr 25 20:20:14 2018
+
+Producer Array  | Consumer Array
+1               | 1
+2               | 2
+3               | 3
+4               | 4
+5               | 5
+6               | 6
+7               | 7
+8               | 8
+9               | 9
+10              | 10
+11              | 11
+12              | 12
+13              | 13
+14              | 14
+15              | 15
+16              | 16
+17              | 17
+18              | 18
+19              | 19
+20              | 20
+21              | 21
+22              | 22
+23              | 23
+24              | 24
+25              | 25
+26              | 26
+27              | 27
+28              | 28
+29              | 29
+30              | 30
+31              | 31
+32              | 32
+33              | 33
+34              | 34
+35              | 35
+36              | 36
+37              | 37
+38              | 38
+39              | 39
+40              | 40
+41              | 41
+42              | 42
+43              | 43
+44              | 44
+45              | 45
+46              | 46
+47              | 47
+48              | 48
+49              | 49
+50              | 50
+51              | 51
+52              | 52
+53              | 53
+54              | 54
+55              | 55
+56              | 56
+57              | 57
+58              | 58
+59              | 59
+60              | 60
+61              | 61
+62              | 62
+63              | 63
+64              | 64
+65              | 65
+66              | 66
+67              | 67
+68              | 68
+69              | 69
+70              | 70
+71              | 71
+72              | 72
+73              | 73
+74              | 74
+75              | 75
+
+Consumer and Produce Arrays Match!
+Duration of Execution: 77 secs
